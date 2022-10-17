@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sun Sep 25 16:36:46 2022
-
-@author: julia
-"""
 
 import numpy as np
 import pandas as pd
@@ -29,7 +24,7 @@ import time
 
 # Einlesen des Datensets, das mithilfe des R-Codes erstellt wurde
 
-df = pd.read_csv ("ml_daten_12.csv",sep=",",decimal=".",encoding= 'unicode_escape')
+df = pd.read_csv ("Pfad des Files")
 df.info()
 df.describe(include = 'all')
 df.isnull().sum().sum()
