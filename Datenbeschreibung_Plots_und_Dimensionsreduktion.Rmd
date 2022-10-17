@@ -5,14 +5,9 @@ date: "26 9 2022"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 
 ```{r}
 #load("\pfad_fuer_Daten")
-load("C:/Dokumente/Uni/7. Semester/Bachelorarbeit/namedData.Rdata")
 library(dplyr)
 library(cluster)
 library(ggplot2)
